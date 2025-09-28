@@ -1,0 +1,109 @@
+{
+  "agency": {
+    "name": "Shubham IoT Homes",
+    "tagline": "Innovating Everyday Living with IoT",
+    "about": "We specialize in creating smart, connected environments through IoT-driven automation. From homes to offices, we design intelligent solutions that make life easier, safer, and more efficient.",
+    "contact": {
+      "email": "info@shubhamiothomes.com",
+      "phone": "+91-9876543210",
+      "address": "A-108/6B, A Block, Sector 58, Noida, Uttar Pradesh, India",
+      "socials": {
+        "linkedin": "https://linkedin.com/company/shubhamiothomes",
+        "twitter": "https://twitter.com/shubhamiothomes",
+        "github": "https://github.com/shubhamiothomes"
+      }
+    }
+  },
+  "services": [
+    {
+      "id": 1,
+      "title": "Smart Home Automation",
+      "description": "Control lighting, appliances, and security with a single touch or voice command.",
+      "icon": "🏠"
+    },
+    {
+      "id": 2,
+      "title": "Office Automation",
+      "description": "Enhance productivity with automated lighting, air conditioning, and energy monitoring systems.",
+      "icon": "💼"
+    },
+    {
+      "id": 3,
+      "title": "IoT Device Integration",
+      "description": "Seamless integration of sensors, cameras, and controllers into a unified system.",
+      "icon": "🔗"
+    },
+    {
+      "id": 4,
+      "title": "Energy Monitoring",
+      "description": "Track and reduce energy consumption with intelligent IoT monitoring solutions.",
+      "icon": "⚡"
+    }
+  ],
+  "projects": [
+    {
+      "id": 101,
+      "name": "Smart Villa Project",
+      "category": "Home Automation",
+      "description": "Installed IoT lighting, climate control, and smart locks for a luxury villa.",
+      "image": "/images/projects/villa.jpg",
+      "technologies": [
+        "Raspberry Pi",
+        "MQTT",
+        "Node.js",
+        "React"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Corporate Office IoT",
+      "category": "Office Automation",
+      "description": "Automated HVAC, lighting, and security for a 10,000 sq. ft. office.",
+      "image": "/images/projects/office.jpg",
+      "technologies": [
+        "Arduino",
+        "AWS IoT",
+        "Next.js",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Energy Monitoring System",
+      "category": "IoT Solutions",
+      "description": "Developed real-time energy tracking dashboard for industrial plant.",
+      "image": "/images/projects/energy.jpg",
+      "technologies": [
+        "ESP32",
+        "MongoDB",
+        "Express.js",
+        "D3.js"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 201,
+      "name": "Rahul Mehta",
+      "company": "TechVilla Homes",
+      "feedback": "The automation system transformed our villa project. Clients are thrilled with the smart features."
+    },
+    {
+      "id": 202,
+      "name": "Priya Sharma",
+      "company": "FutureCorp Offices",
+      "feedback": "Their IoT solutions helped us cut energy costs by 30%. Excellent service and support!"
+    }
+  ],
+  "technologies": [
+    "Raspberry Pi",
+    "Arduino",
+    "ESP32",
+    "Node.js",
+    "React",
+    "Next.js",
+    "MongoDB",
+    "AWS IoT",
+    "MQTT"
+  ]
+}

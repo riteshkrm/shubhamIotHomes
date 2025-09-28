@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body{
+    background: #8D5F8C;
+    color: azure;
+}
+
+ #hero{
+    background-image: url("../utils/bImage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
