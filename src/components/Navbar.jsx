@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className='w-full h-12 bg-transparent shadow-md text-white flex  items-center justify-evenly'>
         {/* Left side navbar / Logo Section */}
         <div className='fixed left-0 ml-10'>
-          <h1 className='text-2xl font-bold'>Logo</h1>
+          <h1 className='text-2xl font-bold'>Shubham IoT</h1>
         </div>
 
         {/* Right Side navbar / Button section */}

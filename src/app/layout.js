@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Service from "@/components/Service";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Shubham Iot Homes",
+  title: "Shubham IoT Homes",
   description: "Shubham IoT Home is a smart home automation solution designed to make everyday living easier, safer, and more efficient. It integrates IoT technology with modern design to control lighting, security, appliances, and energy management through seamless automation and remote access.",
   authors: { name: "Shubham Iot Homes", url: "https://shubhamiothomes.com" },
   creator: "Shubham Iot Homes",
@@ -30,6 +32,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar/>
         <Hero/>
+        <Service/>
         <About/>
         {children}
       </body>
