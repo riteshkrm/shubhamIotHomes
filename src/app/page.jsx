@@ -1,11 +1,12 @@
-import { headers } from "next/headers"
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Service from "@/components/Service";
+import About from "@/components/About";
 
 export default function Home() {
   return (
-
-    <header>
-
-      <h1 className="text-3xl font-bold underline">This is a test page</h1>
-    </header>
+    <>
+       
+    </>
   );
 }

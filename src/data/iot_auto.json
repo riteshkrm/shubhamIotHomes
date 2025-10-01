@@ -38,7 +38,21 @@
       "title": "Energy Monitoring",
       "description": "Track and reduce energy consumption with intelligent IoT monitoring solutions.",
       "icon": "⚡"
+    },
+
+    {
+      "id": 5,
+      "title": "Custom IoT Solutions",
+      "description": "Tailored IoT applications to meet specific business or residential needs.",
+      "icon": "🛠️"
+    },
+    {
+      "id": 6,
+      "title": "Maintenance & Support",
+      "description": "Ongoing support and maintenance to ensure your IoT systems run smoothly.",
+      "icon": "🛡️"
     }
+
   ],
   "projects": [
     {
