@@ -5,7 +5,7 @@ import Data from "@/data/iot_auto.json";
 function Service() {
     
   return (
-    <div className="min-h-screen m-4">
+    <div id="service" className="min-h-screen p-4 ">
       <h1 className="text-4xl font-bold">What we do</h1>
       <h2 className="text-2xl m-3">
         We provide top-notch services to our clients.

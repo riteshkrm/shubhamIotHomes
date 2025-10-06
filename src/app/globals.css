@@ -1,15 +1,30 @@
 @import "tailwindcss";
 
-body{
-    background: #8D5F8C;
-    color: azure;
+@theme inline {
+  --animate-spotlight: spotlight 3s ease 0.75s 1 forwards;
 }
 
+@keyframes spotlight {
+  0% {
+    opacity: 0;
+    transform: translate(-72%, -62%) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -40%) scale(1);
+  }
+}
+
+
+
+
+
+
  #hero{
-    background-image: url("../utils/bImage.jpg");
-    background-repeat: no-repeat;
+    background-image: url("../utils/bgImg.jpg");
+    background-size:cover;
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
     margin: 0;
     padding: 0;

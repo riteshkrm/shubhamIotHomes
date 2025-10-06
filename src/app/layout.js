@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Service from "@/components/Service";
+import Project from "@/components/Project"
 
 
 const geistSans = Geist({
@@ -30,11 +31,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
-        <Hero />
-        <Service />
-        <About />
         {children}
+        <Navbar />
+        {/* <Hero /> */}
+        <Service />
+        <Project/>
+        <About />
       </body>
     </html>
   );
