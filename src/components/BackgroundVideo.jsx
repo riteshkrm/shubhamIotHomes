@@ -1,13 +1,13 @@
-// components/BackgroundVideo.js
-export default function BackgroundVideo() {
+"use client";
+
+export function BackgroundVideo() {
   return (
     <video
-      src="/CurtainOpenBright.mp4" // Place your file in /public
+      src="/imgVid/video.mp4"
       autoPlay
-      loop
       muted
       playsInline
-      poster="/curtain-poster.jpg" // Optional fallback image
+      poster="/imgVid/bgImg.jpg"
       style={{
         position: "fixed",
         top: 0,
@@ -18,7 +18,7 @@ export default function BackgroundVideo() {
         height: "100vh",
         objectFit: "cover",
         zIndex: -1,
-        background: "#000", // fallback background color
+        // background: "yellow", 
       }}
     />
   );

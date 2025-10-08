@@ -1,4 +1,4 @@
-import React from "react";
+import { BackgroundVideo } from "./BackgroundVideo";
 
 function Hero() {
   return (
@@ -6,6 +6,7 @@ function Hero() {
       id="hero"
       className="flex flex-col items-center justify-center min-h-screen bg-transparent shadow-2xl text-center text-white p-4"
     >
+      <BackgroundVideo></BackgroundVideo>
       <h1 className="text-5xl font-bold">Welcome to Our Website</h1>
       <p className="my-4 mx-40 text-xl font-bold ">
         Now, your home will be truly smart—everything is right at your
